@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokemon Fight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="body">
+    <header>
+        <img class="logo"
+             title="Reset Game"
+             src="./assets/Pokemon_logo.png"
+             alt="Pokemon">
+    </header>
+    <div class="playground">
+        <div class="pokemon player1">
+            <span class="lvl">Lv. 1</span>
+
+            <img src="" class="sprite" id="img-player1">
+
+            <div class="details">
+                <h2 class="name" id="name-player1">
+                    Pikachu
+                </h2>
+                <div class="hp">
+                    <div class="bar">
+                        <div class="health" id="progressbar-player1" style="width: 100%;"></div>
+                    </div>
+                    <span class="text" id="health-player1">100 / 100</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="control">
+        </div>
+
+        <div class="pokemon player2">
+            <span class="lvl">Lv. 1</span>
+
+            <img src="" class="sprite" id="img-player2">
+
+            <div class="details">
+                <h2 class="name" id="name-player2">
+                    Charmander
+                </h2>
+                <div class="hp">
+                    <div class="bar">
+                        <div class="health" id="progressbar-player2" style="width: 100%;"></div>
+                    </div>
+                    <span class="text" id="health-player2">100 / 100</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="logs"></div>
+</div>
+<div class="catch_screen"></div>
+
+<script src="main.js" type="module"></script>
+</body>
+</html>
